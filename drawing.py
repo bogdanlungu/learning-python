@@ -18,7 +18,7 @@ def draw_art():
     for i in range(1,37):
         draw_square(brad)
         brad.right(10)
-    
+
     #Draw a circle
     #Instantiate turtle again
     ''''

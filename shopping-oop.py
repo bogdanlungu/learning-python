@@ -4,7 +4,7 @@ class Cart:
         self._contents = dict()
 
     def __repr__(self):
-        return "{0} {1}".format(Cart, self.__dict__)
+        return "Your shopping cart has these products: {0}".format(self._contents)
 
     def process(self, order):
         if order.add:
@@ -12,8 +12,8 @@ class Cart:
                 self._contents[order.item] = 0
             self._contents[order.item] += 1
         elif order.delete:
-            if order.item in self_contents:
-                self.contents[order.item] -= 1
+            if order.item in self._contents:
+                self._contents[order.item] -= 1
                 if self._contents[order.item] <= 0:
                      del self._contents[order.item]
 

@@ -7,7 +7,7 @@ def show_info():
 
 print(person)
 
-#name is not accessible - declared in function enclosing scope 
+#name is not accessible - declared in function enclosing scope
 #print(person2)
 
 def local():

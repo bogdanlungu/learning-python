@@ -1,8 +1,11 @@
-#This program opens an url and extracts the data from it
-#It extracts text, styles and JavaScript
+# This program opens an url and extracts the data from it
+
+# It extracts text, styles and JavaScript
+
 
 import urllib.request
 from html.parser import HTMLParser
+
 
 class ParseHTML(HTMLParser):
 
@@ -10,6 +13,7 @@ class ParseHTML(HTMLParser):
         print("", data)
 
 parser = ParseHTML()
+
 
 def get_content():
     with urllib.request.urlopen("http://www.bbc.co.uk/") as url:

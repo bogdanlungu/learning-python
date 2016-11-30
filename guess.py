@@ -22,6 +22,7 @@ while not found:
     if guess < randomNumber:
         print("Too low")
     if guess > randomNumber:
-        print ("Too high")
+        print("Too high")
+
 
 print("You guessed it! It took you " + str(time) + " times.")

@@ -6,6 +6,8 @@ import random
 
 #
 # Get the random word
+
+
 def get_random_word():
     words = ["pizza", "cheese", "apples"]
     word = words[random.randint(0, len(words) - 1)]
@@ -13,19 +15,29 @@ def get_random_word():
 
 #
 # Show a word with spaces between characters
+
+
 def show_word(word):
     for character in word:
-        print(character, " ", end="")  #by default end is \n so we changed it here to ""
+        # by default end is \n so we changed it here to ""
+        print(character, " ", end="")
+
     print("")
 
 #
 # Show the letter wrote by the user on repl
+
+
 def get_guess():
     print("Enter a letter: ")
     return input()
 
 #
-# Check to see if the letter is in the secret word and replace the underscore with it
+# Check to see if the letter is in the secret word and replace the
+# underscore with it
+
+
+
 def process_letter(letter, secret_word, blanked_word):
     result = False
 
@@ -38,13 +50,18 @@ def process_letter(letter, secret_word, blanked_word):
 
 #
 # Print the number of mistakes using Xs
+
+
 def print_strikes(number_of_strikes):
     for i in range(0, number_of_strikes):
         print("X", end="")  # print without the new line using end parameter
-    print("") # just print a new line
+    print("")  # just print a new line
+
 
 #
 # The main function that holds the game functionality
+
+
 def play_word_game():
     strikes = 0
     max_strikes = 3
@@ -69,9 +86,11 @@ def play_word_game():
             playing = False
 
     if strikes >= max_strikes:
-         print("Loser!")
+        print("Loser!")
+
     else:
-         print("Winner!")
+        print("Winner!")
+
 
 print("Game started")
 play_word_game()

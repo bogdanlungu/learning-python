@@ -7,7 +7,8 @@ class Fleet:
         self._cars.append(car)
 
     def remove_car(self, car):
-        self,_people.remove(car)
+        self, _people.remove(car)
+
 
     def show_fleet(self):
         for car in self._cars:

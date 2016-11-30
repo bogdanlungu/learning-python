@@ -1,4 +1,6 @@
-import shopping.cart, shopping.order
+import shopping.cart
+import shopping.order
+
 
 cart = shopping.cart.Cart()
 order = shopping.order.Order()

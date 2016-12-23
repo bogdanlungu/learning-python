@@ -28,6 +28,16 @@ def count_zips(the_folder):
     return number_of_archives
 
 
+def remaining_files(num):
+    """Returns how many files are still to be unzipped"""
+    if num > 1:
+        return " another " + str(num) + " files remaining"
+    if num == 0:
+        return " last file unzipped"
+    if num == 1:
+        return " last file remaining"
+
+
 def unzip_files(the_folder, files_number):
     """Unzip the files from the given folder, received two parameters:
     the folder and the number of zip files inside the folder"""
@@ -45,9 +55,10 @@ def unzip_files(the_folder, files_number):
                 zip_ref.extractall(folder_to_extract)
                 zip_ref.close()
 
-                # print(os.path.splitext(path_to_zip_file)[0])
-                print(file_name + " was unzipped")
-                # print(path_to_zip_file)
+                files_number = files_number - 1
+                remaining = remaining_files(files_number)
+
+                print(file_name + " was unzipped another " + remaining)
     else:
         return  # Nothing to do
 

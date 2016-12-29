@@ -23,3 +23,7 @@ An example of a class and its instantiation as an object.
 ## rename_files
 Renames all the files from a given directory by removing the numbers from
 their names - example boston221.jpg will become boston.jpg
+
+## unzip_files
+This program reads all the zip archives from a folder and unzips them in the same location.
+You need to give the path to the folder with the folder variable.

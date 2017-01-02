@@ -5,6 +5,13 @@ This repository contains some programs made for learning Python.
 This program opens a file and check its content to see if it has
 bad language in it and displays a message with the result.
 
+## combinations.py
+This programs computes how many combinations are possible
+to be made from a collection of 'n' unique integers grouped under 'g' elements.
+You need to specify the length of the collection and how many elements at a time you
+want to group from the collection.
+The number of possible combinations will be printed.
+
 ## drawing.py
 This programs uses Turtle library and draws a circle made out of many squares.
 

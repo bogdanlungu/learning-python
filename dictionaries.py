@@ -37,3 +37,13 @@ print('The a dictionary values are ' + str(a.values()))
 
 # Items
 print('The a dictionary items are ' + str(a.items()))
+
+
+# Iterate over dictionaries
+f = {'a': 1, 'b': 2, 'c': 3}
+for key, value in f.items():
+    print('The key is ' + str(key) + ' and value ' + str(value))
+
+
+# Get the dictionary length
+print('The length of f is ' + str(len(f)))

@@ -12,6 +12,10 @@ You need to specify the length of the collection and how many elements at a time
 want to group from the collection.
 The number of possible combinations will be printed.
 
+## dictionaries.py
+Some useful information about dictionaries. Dictionaries are one of the most interesting built-in data type.
+They look like JavaScript object.
+
 ## drawing.py
 This programs uses Turtle library and draws a circle made out of many squares.
 

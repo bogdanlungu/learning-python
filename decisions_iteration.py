@@ -37,3 +37,19 @@ for product in products:
     print(
         'Price for sku', product['sku'],
         'is now', product['price'])
+
+
+# break statement in Python
+# check if an element of the list evaluates equals 3
+items = [0, 4, 1, 2, 3, 9]  # True and 7 evaluate to True
+found = False # set a flag
+for item in items:
+    print('checking items', item)
+    if item == 3:
+        found = True
+        break
+
+if found:
+    print('One item equals 3')
+else:
+    print('None equals 3')

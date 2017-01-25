@@ -28,7 +28,7 @@ You need to guess a number, the program will tell you how many times you tried.
 ## naive_bayes.py
 Gaussian Naive Bayes example.
 
-## names-scopes-classes.py
+## names_scopes_classes.py
 A program which shows an example of a class and how it is working the scope in Python.
 
 ## oop.py

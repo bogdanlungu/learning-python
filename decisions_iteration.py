@@ -42,7 +42,7 @@ for product in products:
 # break statement in Python
 # check if an element of the list evaluates equals 3
 items = [0, 4, 1, 2, 3, 9]  # True and 7 evaluate to True
-found = False # set a flag
+found = False  # set a flag
 for item in items:
     print('checking items', item)
     if item == 3:
@@ -53,3 +53,30 @@ if found:
     print('One item equals 3')
 else:
     print('None equals 3')
+
+
+# check for prime numbers in a range
+primes = []
+upto = 5
+for n in range(2, upto + 1):
+    for divisor in range(2, n):
+        if n % divisor == 0:
+            break
+    else:
+        primes.append(n)
+print(primes)
+
+
+# Python's switch
+day_number = 6
+if 1 <= day_number <= 5:
+    day = 'Weekday'
+elif day_number == 6:
+    day = 'Saturday'
+elif day_number == 0:
+    day = 'Sunday'
+else:
+    day = ''
+    raise ValueError(
+        str(day_number) + ' not a valid day number.')
+print(day)

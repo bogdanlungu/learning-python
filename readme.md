@@ -41,3 +41,7 @@ their names - example boston221.jpg will become boston.jpg
 ## unzip_files
 This program reads all the zip archives from a folder and unzips them in the same location.
 You need to give the path to the folder with the folder variable.
+
+## word_game.py
+Game that will choose a secret word and give you some hints in order to guess the word.
+In the end it will show if you won or lose.

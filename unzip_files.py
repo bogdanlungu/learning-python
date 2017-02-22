@@ -5,7 +5,6 @@ You need to give the path to the folder in the folder variable."""
 
 import os
 import zipfile
-#from pathlib import Path
 
 
 def count_zips(the_folder):
@@ -19,8 +18,6 @@ def count_zips(the_folder):
 
     number_of_archives = len(zip_files)
     if number_of_archives > 0:
-        # print(number_of_archives)
-        #print("There are " + str(number_of_archives) + " zips in this folder")
         return number_of_archives
     else:
         print("There are no zip files in this folder.")

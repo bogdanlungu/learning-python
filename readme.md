@@ -28,17 +28,24 @@ You need to guess a number, the program will tell you how many times you tried.
 ## naive_bayes.py
 Gaussian Naive Bayes example.
 
+## md5.py
+A program that shows how to convert a string to md5 hash
+
 ## names_scopes_classes.py
 A program which shows an example of a class and how it is working the scope in Python.
 
 ## oop.py
 An example of a class and its instantiation as an object.
 
-## rename_files
+## read_folder.py
+This program reads all the files and subfolders
+inside a folder and writes them in a txt file.
+
+## rename_files.py
 Renames all the files from a given directory by removing the numbers from
 their names - example boston221.jpg will become boston.jpg
 
-## unzip_files
+## unzip_files.py
 This program reads all the zip archives from a folder and unzips them in the same location.
 You need to give the path to the folder with the folder variable.
 

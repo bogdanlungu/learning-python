@@ -16,6 +16,9 @@ The number of possible combinations will be printed.
 Some useful information about dictionaries. Dictionaries are one of the most interesting built-in data type.
 They look like JavaScript object.
 
+## domain_info.py
+Get info about a domain
+
 ## drawing.py
 This programs uses Turtle library and draws a circle made out of many squares.
 
@@ -36,6 +39,9 @@ A program which shows an example of a class and how it is working the scope in P
 
 ## oop.py
 An example of a class and its instantiation as an object.
+
+## quadratic_equation.py
+Second order equation solved.
 
 ## read_folder.py
 This program reads all the files and subfolders

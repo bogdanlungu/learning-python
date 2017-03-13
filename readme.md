@@ -22,6 +22,9 @@ Get info about a domain
 ## drawing.py
 This programs uses Turtle library and draws a circle made out of many squares.
 
+## functions.py
+Functions in Python.
+
 ## get_url_content.py
 This programs opens an url and extracts the data from it.
 
